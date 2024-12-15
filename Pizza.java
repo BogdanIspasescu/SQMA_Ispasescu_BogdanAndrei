@@ -5,6 +5,8 @@ public class Pizza {
     private int size; // Size in inches
     private double price;
 
+    public Pizza(){}
+
     public Pizza(String type, int size, double price) {
         this.type = type;
         this.size = size;
